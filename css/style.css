@@ -37,7 +37,7 @@ img {
 .header{
     color:red;
 }
-.header > h1 {
+.header h1 {
     color:blue;
 }
 
@@ -62,10 +62,10 @@ img {
 #l3, #l6, #endpage {
     color:darkorchid;
 }
-.navlink{
+.navlink a{
     color:magenta;
 }
-.outlink > p > a {
+.outlink a{
     color:deeppink;
 }
 .text-ul-list {
