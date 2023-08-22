@@ -1,0 +1,76 @@
+/* Обнуление стилей*/
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a, 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, 
+h2, 
+h3,
+h4, 
+h5, 
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+.header{
+    color:red;
+}
+.header > h1 {
+    color:blue;
+}
+
+
+.text1 {
+    color:aqua;
+}
+
+.text2 {
+    color:blueviolet;
+}
+
+.text3 {
+    color:chocolate;
+}
+#l1, #l4, #l7 {
+    color:crimson;
+}
+#l2, #l5, #l8 {
+    color:darkgreen;
+}
+#l3, #l6, #endpage {
+    color:darkorchid;
+}
+.navlink{
+    color:magenta;
+}
+.outlink > p > a {
+    color:deeppink;
+}
+.text-ul-list {
+    color:lawngreen
+}
+.text-ol-list {
+    color:darkred;
+}
